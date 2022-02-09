@@ -1,6 +1,7 @@
 {"name":"Fred Flintstone","_id":"Qrxp0BzSqDYVq8Fa"}
 {"name":"Allan Grey","_id":"d4pJ8HZ3OwliGg7t"}
 {"name":"John Brown","_id":"kCIOh2dNLuFWq31R"}
-{"name":"Ann Jones","_id":"j3KAVrKtLnN7A5D1"}
-{"name":"Anne Jones","_id":"j3KAVrKtLnN7A5D1"}
-{"$$deleted":true,"_id":"j3KAVrKtLnN7A5D1"}
+{"name":"Joe Blogs","_id":"CkyNSmCaE5WxHtaJ"}
+{"name":"Liz Brown","_id":"cItCJjxnp5CV3WZl"}
+{"name":"Elizabeth Brown","_id":"cItCJjxnp5CV3WZl"}
+{"$$deleted":true,"_id":"cItCJjxnp5CV3WZl"}
