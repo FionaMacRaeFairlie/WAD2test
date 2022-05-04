@@ -31,96 +31,18 @@
                     <div class="card bg-light border-0 h-100">
                         <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
-                                    class="bi bi-plus-square-fill"></i></div>
-                            <h2 class="fs-4 fw-bold">Add new employee</h2>
-                            <form action="/add" method="POST">
-                                <fieldset>
-                                    <div class="mb-3">
-                                        <label class="form-label">Name</label>
-                                        <input class="form-control" type="text" id="name" name="name" required>
-                                    </div>
-                                    <button class="btn btn-primary" type="reset">Reset</button>
-                                    <button class="btn btn-primary" type="submit">Submit</button>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
-                                    class="bi bi-filter-square-fill"></i></i></div>
-                            <h2 class="fs-4 fw-bold">View an employee</h2>
-                            <form action="/view" method="POST">
-                                <fieldset>
-                                    <div class="mb-3">
-                                        <label class="form-label">Employee Name</label>
-                                        <input class="form-control" type="text" id="empID" name="id" required>
-                                        <br /><br /><br /><br />
-                                    </div>
-                                    <div class="mb-3">
-                                        <button class="btn btn-primary" type="reset">Reset</button>
-                                        <button class="btn btn-primary" type="submit">Submit</button>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
-                                    class="bi bi-cloud-upload-fill"></i></div>
-                            <h2 class="fs-4 fw-bold">Update an employee</h2>
-                            <form action="/update" method="POST">
-                                <fieldset>
-                                    <div class="mb-3">
-                                        <label class="form-label">Employee ID</label>
-                                        <input class="form-control" type="text" id="id" name="_id" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">New Name</label>
-                                        <input class="form-control" type="text" id="name" name="name" required>
-                                    </div>
-                                    <button class="btn btn-primary" type="reset">Reset</button>
-                                    <button class="btn btn-primary" type="submit">Submit</button>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
                                     class="bi bi-dash-square-fill"></i></div>
                             <h2 class="fs-4 fw-bold">Delete an employee</h2>
                             <form action="/delete" method="POST">
                                 <fieldset>
                                     <div class="mb-3">
                                         <label class="form-label">Employee ID</label>
-                                        <input class="form-control" type="text" id='empID' name="id" required>
+                                        <input class="form-control" type="text" id='empID' name="name" required>
                                         <br><br>
                                     </div>
-                                    <button class="btn btn-primary" type="reset">Reset</button>
-                                    <button class="btn btn-primary" type="submit">Submit</button>
-                                    <br><br><br>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
-                                    class="bi bi-filter-square-fill"></i></i></div>
-                            <h2 class="fs-4 fw-bold">Show all employees</h2>
-                            <form action="/showAll" method="POST">
-                                <fieldset>
-                                    <button class="btn btn-primary" type="submit">Show All</button>
+                                  <!--  <button class="btn btn-primary" type="reset">Reset</button>
+                                    <button class="btn btn-primary" type="submit">Submit</button>-->
+                                    <input type="submit" value="delete" class="btn btn-primary">
                                     <br><br><br>
                                 </fieldset>
                             </form>
